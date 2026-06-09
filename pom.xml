@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.tjhhh</groupId>
   <artifactId>release_contoh</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
 
 <dependencies>
   <dependency>

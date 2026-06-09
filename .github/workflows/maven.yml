@@ -11,8 +11,8 @@ name: Java CI with Maven - MKEPL 103022300065
 on:
   pull_request:
     branches: [ "main" ]
-  # release:
-  #   types: [created]
+  release:
+    types: [created]
 
 jobs:
   build:
@@ -44,7 +44,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=tjhhh -Dsonar.projectKey=tjhhh_coba
-    # - name: "publish to GitHub Packages Apache Maven"
-    #   run: mvn deploy
-    #   env: 
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: "publish to GitHub Packages Apache Maven"
+      run: mvn deploy
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
