@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven - MKEPL 103022300069
+name: Java CI with Maven - MKEPL 103022300065
 
 on:
   pull_request:
