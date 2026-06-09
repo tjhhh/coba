@@ -6,15 +6,15 @@ public class Driver {
 		
 		Counter counter = new Counter();
 		
-		System.out.println("Hasil Perhitungan :" + counter.getCount());
+		System.out.println("Hasil Perhitungan 1:" + counter.getCount());
 		
 		counter.increment();
 		
-		System.out.println("Hasil Perhitungan :" + counter.getCount());
+		System.out.println("Hasil Perhitungan 2:" + counter.getCount());
 		
 		counter.decrement();
 		
-		System.out.println("Hasil Perhitungan :" + counter.getCount());
+		System.out.println("Hasil Perhitungan 3:" + counter.getCount());
 		
 	}
 
