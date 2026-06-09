@@ -6,7 +6,7 @@ public class Driver {
 		
 		Counter counter = new Counter();
 		
-		System.out.println("Hasil Perhitungan release:" + counter.getCount());
+		System.out.println("Hasil Perhitungan :" + counter.getCount());
 		
 		counter.increment();
 		
@@ -14,7 +14,7 @@ public class Driver {
 		
 		counter.decrement();
 		
-		System.out.println("Hasil Perhitungan 2:" + counter.getCount());
+		System.out.println("Hasil Perhitungan :" + counter.getCount());
 		
 	}
 
