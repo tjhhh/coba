@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.hapispro</groupId>
+  <groupId>com.github.tjhhh</groupId>
   <artifactId>release_contoh</artifactId>
-  <version>0.1.3</version>
+  <version>0.1.1</version>
 
 <dependencies>
   <dependency>
@@ -15,14 +15,14 @@
 <distributionManagement>
   <repository>
     <id>github</id>
-    <url>https://maven.pkg.github.com/hapispro/103022300069_Hafizh_Praktik-MKEPL</url>
+    <url>https://maven.pkg.github.com/tjhhh/coba</url>
   </repository>
 </distributionManagement>
   
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
-	 <sonar.organization>hapispro</sonar.organization>
+	 <sonar.organization>tjhhh</sonar.organization>
 	 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
  </properties>
   
